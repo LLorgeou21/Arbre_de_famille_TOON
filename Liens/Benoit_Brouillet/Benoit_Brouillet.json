@@ -1,0 +1,38 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Benoit Brouillet",
+         "photo": "../../images/Benoit_Brouillet/Benoit.png",
+        "children": [
+            {"name": "Le BDF",
+             "photo": "../../images/Benoit_Brouillet/Logo_BDF.png",
+             "children": [
+                {"name": "Vice-Président 2024",
+                 "photo": "../../images/Vice_président.png"},
+                 {"photo": "../../images/Benoit_Brouillet/Mix.png"}
+             ]},
+             {"name": "Liste BDE",
+            "photo": "../../images/listoon.png",
+             "children": [
+                {"name": "Rôle de liste",
+                 "photo": "../../images/VP_Fouaille.png"},
+                 {"photo": "../../images/Benoit_Brouillet/Role_liste.png"}
+             ]},
+            {"name": "Fillote",
+             "photo": "../../images/Fillote.png",
+             "children": [
+                {"name": "Rayna Benghali",
+                 "photo": "../../images/Rayna_Benghali/Rayna.png",
+                "link": "../Rayna_Benghali/Rayna.html"}
+             ]},
+             {"name": "Parrain ?",
+              "photo": "../../images/Parrain.png"},
+              {"name": "Play",
+                "photo": "../../images/play.png"}
+        ]}
+    ]
+}
+  
+  

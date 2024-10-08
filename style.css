@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  svg {
+    display: block;
+    margin: auto;
+  }
+  
+  circle {
+    fill: steelblue;
+    stroke: black;
+    stroke-width: 1.5px;
+  }
+  
+  text {
+    font-size: 12px;
+  }
+  

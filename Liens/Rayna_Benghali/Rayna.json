@@ -1,0 +1,29 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Rayna Benghali",
+         "photo": "../../images/Rayna_Benghali/Rayna.png",
+        "children": [
+            {"name": "Fillote",
+             "photo": "../../images/Fillote.png",
+             "children": [
+                {"name": "Marrion Vicot",
+                 "photo": "A FAIRE!",
+                "link": "../Marrion_Vilcot/Marrion.html"}
+             ]},
+             {"name": "Parrain ?",
+              "photo": "../../images/Parrain.png",
+            "children": [
+                {"name": "Benoit Brouillet",
+                "photo": "../../images/Benoit_Brouillet/Benoit.png",
+                "link": "../Benoit_Brouillet/Benoit_Brouillet.html"}
+            ]},
+              {"name": "Play",
+                "photo": "../../images/play.png"}
+        ]}
+    ]
+}
+  
+  

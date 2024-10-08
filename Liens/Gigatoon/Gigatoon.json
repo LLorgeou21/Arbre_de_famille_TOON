@@ -1,0 +1,17 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "La Listoon",
+         "photo": "../../images/La_Gigatoon/listoon.png",
+        "children": [
+            {"name": "La Gigatoon",
+             "photo": "../../images/La_Gigatoon/G.png"},
+             {"name": "Explication",
+            "photo": "../../images/La_Gigatoon/Texte1.png"}
+        ]}
+    ]
+}
+  
+  
