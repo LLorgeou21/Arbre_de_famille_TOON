@@ -1,0 +1,14 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "a",
+         "photo": "../../images/a.png",
+        "children": [
+            
+        ]}
+    ]
+}
+  
+  

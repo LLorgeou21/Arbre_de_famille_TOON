@@ -1,0 +1,94 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Lilian Lorgeou",
+         "photo": "../../images/Lilian_Lorgeou/Lilian.png",
+        "children": [
+            {"name": "Fillot",
+             "photo": "../../images/Fillot.png",
+             "children":[
+                {"name": "Hermann Mabounda",
+                 "photo": "../../images/Lilian_Lorgeou/moihermann.png",
+                 "link": "../Hermann_Mabounda/Hermann.html"}
+             ]},
+             {
+                "name":"Parrain",
+                "photo":"../../images/Parrain.png",
+                "children":[
+                    {"name":"Enzo Becat",
+                     "photo": "../../images/Lilian_Lorgeou/moienzo.jpg"}
+                ]
+             },
+             {
+                "name": "Assos",
+                "photo": "../../images/Assos.png",
+                "children":[
+                    {"name": "Club Rap",
+                     "photo": "../../images/Lilian_Lorgeou/Clubrap.png",
+                     "children":[
+                        {"name": "Logo",
+                         "photo": "../../images/Lilian_Lorgeou/logorap.jpg"},
+                        {"name": "Role",
+                         "photo": "../../images/Lilian_Lorgeou/raptxt.png"},
+                        {"name": "RC à TPS",
+                         "photo": "../../images/Lilian_Lorgeou/rc.png"}
+                     ]},
+                    {"name": "Assos Poly",
+                     "photo": "../../images/Lilian_Lorgeou/asspoly.png",
+                     "children":[
+                        {"name":"Logo",
+                         "photo": "../../images/Lilian_Lorgeou/logopoly.png"},
+                        {"name":"Role",
+                         "photo": "../../images/Lilian_Lorgeou/PREZPOLY.png"}
+                     ]},
+                    {"name": "Media Physique Strasbourg",
+                     "photo": "../../images/Lilian_Lorgeou/mps.png",
+                     "children":[
+                        {"name": "Logo",
+                         "photo": "../../images/Lilian_Lorgeou/logomps.jpg"},
+                        {"name": "Role",
+                         "photo" : "../../images/Lilian_Lorgeou/rolemps.png",
+                         "children":[
+                            {"name": "Jt de l'inté 2023",
+                             "photo": "../../images/Lilian_Lorgeou/Jtdelinte.jpg",
+                             "link": "https://www.youtube.com/watch?v=5KKW0kx9o84"}
+                         ]}
+                     ]}
+                ]
+             },
+            {"name": "Rappeur",
+             "photo": "../../images/Lilian_Lorgeou/lailin.png",
+             "children":[
+                {"name": "Putain",
+                 "photo": "../../images/Lilian_Lorgeou/cov1.jpg",
+                 "link": "https://soundcloud.com/user-540073062/putain-lil-dik"},
+                 {"name": "Succes Team",
+                 "photo": "../../images/Lilian_Lorgeou/cov2.jpg",
+                 "link": "https://soundcloud.com/user-540073062/success-team-feat-alint-prod-1"},
+                 {"name": "Toujours Plus",
+                 "photo": "../../images/Lilian_Lorgeou/cov3.jpg",
+                 "link": "https://soundcloud.com/user-540073062/toujours-plus-prod-lilchick"}
+             ]},
+            {"name": "Campagne BDE 2022",
+             "photo": "../../images/campagne2022.png",
+             "children":[
+                {"name": "Logo",
+                 "photo": "../../images/listoon.png",
+                 "link": "https://www.instagram.com/listoon_tps/"},
+                {"name": "Inspecteur Gadget",
+                 "photo": "../../images/Lilian_Lorgeou/gadget.png"},
+                {"name": "Rôle",
+                 "photo": "../../images/Lilian_Lorgeou/VPint.png",
+                 "children":[
+                    {"name": "Vidéo de liste",
+                     "photo": "../../images/Lilian_Lorgeou/videodeliste.png",
+                     "link": "https://www.facebook.com/100089189086561/videos/2315132375540950/?idorvanity=7626292664111656"}
+                 ]}
+             ]}
+        ]}
+    ]
+}
+  
+  
