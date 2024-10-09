@@ -6,7 +6,7 @@ let currentZoom = 1;
 const squareSize = 60; // Taille des carrés
 
 // Créez un élément audio
-const audio = new Audio('../../images/a.mp3'); // Remplacez 'audio.mp3' par le chemin vers votre fichier audio
+const audio = new Audio('../../images/Lilian_Lorgeou/Tenet.mp3'); // Remplacez 'audio.mp3' par le chemin vers votre fichier audio
 
 d3.json("Lilian.json").then(treeData => {
     const root = d3.hierarchy(treeData);

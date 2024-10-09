@@ -71,7 +71,7 @@
                  "photo": "../../images/Lilian_Lorgeou/cov3.jpg",
                  "link": "https://soundcloud.com/user-540073062/toujours-plus-prod-lilchick"}
              ]},
-             
+
             {"name": "Campagne BDE 2022",
              "photo": "../../images/campagne2022.png",
              "children":[
@@ -87,7 +87,9 @@
                      "photo": "../../images/Lilian_Lorgeou/videodeliste.png",
                      "link": "https://www.facebook.com/100089189086561/videos/2315132375540950/?idorvanity=7626292664111656"}
                  ]}
-             ]}
+             ]},
+             {"name": "Play",
+              "photo": "../../images/play.png"}
         ]}
     ]
 }
