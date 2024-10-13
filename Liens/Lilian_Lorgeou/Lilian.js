@@ -5,8 +5,22 @@ const offsetY = -80;
 let currentZoom = 1;
 const squareSize = 60; // Taille des carrés
 
-// Créez un élément audio
-const audio = new Audio('../../images/Lilian_Lorgeou/Tenet.mp3'); // Remplacez 'audio.mp3' par le chemin vers votre fichier audio
+// Créez un élément vidéo en arrière-plan
+const video = document.createElement('video');
+video.src = '../../images/Lilian_Lorgeou/Whiplash cat meme.mp4'; // Remplacez par le chemin de votre vidéo
+video.autoplay = false;
+video.loop = true;
+video.muted = false; // Désactiver la sourdine pour que l'audio de la vidéo soit actif
+video.controls = false; // Désactiver les contrôles vidéo pour une meilleure intégration visuelle
+video.style.position = 'fixed';
+video.style.top = '0';
+video.style.left = '0';
+video.style.width = '100%';
+video.style.height = '100%';
+video.style.zIndex = '-1'; // Assure que la vidéo est en arrière-plan
+video.style.objectFit = 'cover'; // Pour que la vidéo remplisse tout l'écran sans distorsion
+video.style.display = 'none'; // Cacher la vidéo au début
+document.body.appendChild(video);
 
 d3.json("Lilian.json").then(treeData => {
     const root = d3.hierarchy(treeData);
@@ -30,18 +44,18 @@ d3.json("Lilian.json").then(treeData => {
     g.append("g")
         .attr("stroke", "#999")
         .attr("stroke-opacity", 0.6)
-      .selectAll("line")
-      .data(links)
-      .join("line");
+        .selectAll("line")
+        .data(links)
+        .join("line");
 
     // Noeuds avec carrés et images
     const nodeGroup = g.append("g")
         .attr("fill", "#fff")
         .attr("stroke", "#000")
         .attr("stroke-width", 1.5)
-      .selectAll("g")
-      .data(nodes)
-      .join("g")
+        .selectAll("g")
+        .data(nodes)
+        .join("g")
         .attr("transform", d => `translate(${d.x}, ${d.y})`);
 
     // Remplace les cercles par des carrés
@@ -103,10 +117,11 @@ d3.json("Lilian.json").then(treeData => {
 
         // Vérifiez si le nom de la node est "Play"
         if (d.data.name === "Play") {
-            if (!audio.paused) {
-                audio.pause(); // Met en pause la musique si elle joue
+            if (!video.paused) {
+                video.pause(); // Met en pause la vidéo si elle joue
             } else {
-                audio.play(); // Joue la musique si elle est en pause
+                video.play(); // Joue la vidéo avec son audio
+                video.style.display = 'block'; // Affiche la vidéo en plein écran
             }
             return; // Ne pas zoomer sur cette node
         }
@@ -124,7 +139,6 @@ d3.json("Lilian.json").then(treeData => {
 
         currentZoom = currentZoom === 1 ? 5 : 1;
     }
-
 
     // Fonction de double-clic pour la redirection
     function dblclicked(event, d) {

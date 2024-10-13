@@ -89,7 +89,13 @@
                  ]}
              ]},
              {"name": "Play",
-              "photo": "../../images/play.png"}
+              "photo": "../../images/play.png"},
+             {"name": "Faux Bizuth",
+              "photo": "../../images/Lilian_Lorgeou/faux.png",
+              "children":[
+                {"photo": "../../images/Lilian_Lorgeou/fo1.png"},
+                {"photo": "../../images/Lilian_Lorgeou/fo2.png"}
+              ]}
         ]}
     ]
 }

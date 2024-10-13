@@ -5,6 +5,20 @@ const offsetY = -80;
 let currentZoom = 1;
 const squareSize = 60; // Taille des carrés
 
+const backgroundImage = document.createElement('div');
+backgroundImage.style.position = 'fixed';
+backgroundImage.style.top = '0';
+backgroundImage.style.left = '0';
+backgroundImage.style.width = '100%';
+backgroundImage.style.height = '100%';
+backgroundImage.style.backgroundImage = 'url("images/PF_TPS_24_269.jpg")'; // Remplacez par le chemin de votre image
+backgroundImage.style.backgroundSize = 'cover'; // Pour que l'image couvre tout l'écran sans distorsion
+backgroundImage.style.backgroundPosition = 'center';
+backgroundImage.style.zIndex = '-2'; // Assure que l'image est derrière tout le reste
+backgroundImage.style.filter = 'brightness(1.8)'; // Augmente la luminosité (valeurs > 1 augmentent la luminosité)S
+document.body.appendChild(backgroundImage);
+
+
 d3.json("data.json").then(treeData => {
     const root = d3.hierarchy(treeData);
     const links = root.links();
