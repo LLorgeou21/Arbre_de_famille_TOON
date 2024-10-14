@@ -7,7 +7,7 @@
          "photo": "../../images/Benoit_Brouillet/Benoit.png",
         "children": [
             {"name": "Le BDF",
-             "photo": "../../images/Benoit_Brouillet/Logo_BDF.png",
+             "photo": "../../images/Logo_BDF.png",
              "children": [
                 {"name": "Vice-Président 2024",
                  "photo": "../../images/Vice_président.png"},
@@ -24,11 +24,15 @@
              "photo": "../../images/Fillote.png",
              "children": [
                 {"name": "Rayna Benghali",
-                 "photo": "../../images/Rayna_Benghali/Rayna.png",
+                 "photo": "../../images/Benoit_Brouillet/raynaB.png",
                 "link": "../Rayna_Benghali/Rayna.html"}
              ]},
              {"name": "Parrain ?",
-              "photo": "../../images/Parrain.png"},
+              "photo": "../../images/Parrain.png",
+              "children":[
+                {"name": "Aymeric",
+                 "photo": "../../images/Benoit_Brouillet/ayme.png"}
+              ]},
               {"name": "Play",
                 "photo": "../../images/play.png"}
         ]}

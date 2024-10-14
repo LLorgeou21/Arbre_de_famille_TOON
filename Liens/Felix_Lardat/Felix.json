@@ -1,0 +1,75 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Félix Lardat",
+         "photo": "../../images/Félix_Lardat/Félix.png",
+        "children": [
+            {"name": "Play",
+            "photo": "../../images/play.png"},
+            {"name": "Campagne BDE 2022",
+             "photo": "../../images/campagne2022.png",
+             "children": [
+                {"name": "Rôle",
+                 "photo": "../../images/EXT.png"},
+                {"name": "Liste",
+                 "photo": "../../images/listoon.png",
+                "link": "https://www.instagram.com/listoon_tps/"},
+                {"name": "Felix le boss",
+                 "photo": "../../images/Félix_Lardat/felcamp.png"}
+                ]},
+                {"name": "Fillot",
+                "photo": "../../images/Fillot.png",
+                "children": [
+                   {"name": "Maxence Jaureguiberry",
+                    "photo": "../../images/Félix_Lardat/maxfel.jpg",
+                    "link": "../Maxence_Jaureguiberry/Maxence.html"}
+                ]},
+                {"name": "Parrain",
+                "photo": "../../images/Parrain.png",
+                "children": [
+                   {"name": "Ramsy",
+                    "photo": "../../images/Félix_Lardat/parrain.jpg"
+                   }
+                ]},
+                {"name": "Assos",
+                 "photo": "../../images/Assos.png",
+                 "children":[
+                    {"name": "Club Oeno",
+                     "photo": "../../images/Félix_Lardat/logooeno.jpg",
+                     "children": [
+                        {"name": "Rôle",
+                         "photo": "../../images/Félix_Lardat/EXTOENO.png"}
+                     ]},
+                    {"name": "BDE",
+                     "photo": "../../images/BDE.jpg",
+                     "children":[
+                        {"name": "Félix est content",
+                         "photo": "../../images/Félix_Lardat/bdefel.jpg"},
+                        {"name": "Rôle",
+                         "photo": "../../images/Félix_Lardat/rolebde.png"}
+                     ]}
+                 ]},
+                 {"name": "Club",
+                  "photo": "../../images/Club.png",
+                  "children":[
+                    {"name": "Club Pétanque",
+                     "photo": "../../images/Félix_Lardat/pétanque.png"}
+                  ]},
+                {"name": "WES 2023",
+                 "photo": "../../images/Félix_Lardat/wes.jpg",
+                 "children":[
+                    {"name": "Le bus est reparti sans Félix",
+                     "photo": "../../images/Félix_Lardat/Meme.jpg"}
+                 ]}
+        ]}
+
+
+
+
+
+    ]
+}
+  
+  
