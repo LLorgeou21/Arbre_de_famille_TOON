@@ -163,6 +163,7 @@
     {
       "name": "Alexander Edmond",
       "photo": "images/Alexandre_Edmond/Alexandre.png",
+      "link":"Liens/Alexandre_Edmond/Alexandre.html",
       "children": [
         { "name": "Eric Adjivon",
         "photo": "images/Eric_Adjivon/Eric.png",

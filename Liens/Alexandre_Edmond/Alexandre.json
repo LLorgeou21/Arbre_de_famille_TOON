@@ -1,0 +1,94 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Alexandre Edmond",
+         "photo": "../../images/Alexandre_Edmond/Alexandre.png",
+        "children": [
+            {"name": "Campagne BDE 2022",
+             "photo": "../../images/campagne2022.png",
+             "children": [
+                {"name": "Rôle",
+                 "photo": "../../images/EXT.png"},
+                {"name": "Liste",
+                 "photo": "../../images/listoon.png",
+                "link": "https://www.instagram.com/listoon_tps/"}
+             ]},
+            {"name": "Fillot",
+             "photo": "../../images/Fillot.png",
+             "children": [
+                {"name": "Eric Adjivon",
+                 "photo": "../../images/Eric_Adjivon/Eric.png",
+                 "link": "../Eric_Adjivon/Eric.html"}
+             ]},
+             {"name": "Parrain",
+             "photo": "../../images/Parrain.png",
+             "children": [
+                {"name": "Ramsy",
+                 "photo": "../../images/default.png"
+                }
+             ]},
+             {"name": "Assos",
+             "photo": "../../images/Assos.png",
+             "children": [
+                    {"name": "Media Physique Strasbourg",
+                     "photo": "../../images/Lilian_Lorgeou/mps.png",
+                     "children":[
+                        {"name": "Logo",
+                         "photo": "../../images/Lilian_Lorgeou/logomps.jpg"},
+                        {"name": "Role",
+                         "photo" : "../../images/Lilian_Lorgeou/rolemps.png",
+                         "children":[
+                            {"name": "Jt de l'inté 2023",
+                             "photo": "../../images/Lilian_Lorgeou/Jtdelinte.jpg",
+                             "link": "https://www.youtube.com/watch?v=5KKW0kx9o84"}
+                         ]}
+                     ]},
+                     {"name": "BDF",
+                     "photo": "../../images/Logo_BDF.png",
+                     "link": "https://www.instagram.com/bdf_psbs/",
+                     "children":[
+                        {"name": "Rôle",
+                         "photo": "../../images/Alexandre_Edmond/treso.png"}
+                     ]},
+                     {"name": "BDS",
+                     "photo": "../../images/Logo_BDS.jpg",
+                     "link": "https://www.instagram.com/bds_tps/",
+                     "children":[
+                        {"name": "Rôle",
+                         "photo": "../../images/Alexandre_Edmond/int_bds.png"}
+                     ]}
+             ]},
+             {"name": "Club",
+              "photo": "../../images/Club.png",
+              "children":[
+                {"name": "Club baby",
+                 "photo": "../../images/Alexandre_Edmond/baby_logo.png",
+                "children": [
+                    {"name": "Rôle",
+                     "photo": "../../images/Alexandre_Edmond/role_baby.png"}
+                ]},
+                {"name": "Club Rap",
+                 "photo": "../../images/Lilian_Lorgeou/logorap.jpg",
+                 "children":[
+                    {"name": "Rôle",
+                     "photo": "../../images/Alexandre_Edmond/FEAT.png"},
+                     {"name": "Succes Team",
+                     "photo": "../../images/Lilian_Lorgeou/cov2.jpg",
+                     "link": "https://soundcloud.com/user-540073062/success-team-feat-alint-prod-1"}
+                 ]},
+                 {"name": "FC Pâtes",
+                 "photo": "../../images/Alexandre_Edmond/pate.png",
+                "children": [
+                    {"name": "Rôle",
+                     "photo": "../../images/Alexandre_Edmond/int_bds.png"}
+                ]}
+              ]},
+              {"name": "Colloc",
+                "photo": "../../images/Alexandre_Edmond/3c.png"}
+        ]}
+    ]
+}
+  
+  
