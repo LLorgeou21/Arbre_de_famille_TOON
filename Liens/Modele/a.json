@@ -7,7 +7,9 @@
          "photo": "../../images/a.png",
         "children": [
             
-        ]}
+        ]},
+        {"name": "Play",
+              "photo": "../../images/play.png"}
     ]
 }
   
