@@ -5,27 +5,10 @@ const offsetY = -80;
 let currentZoom = 1;
 const squareSize = 60; // Taille des carrés
 
-// Créez un élément vidéo en arrière-plan
-// Créez un élément vidéo en arrière-plan
-const video = document.createElement('video');
-video.src = '../../images/Félix_Lardat/felixperdu.mp4'; // Remplacez par le chemin de votre vidéo
-video.autoplay = false;
-video.loop = true;
-video.muted = false; // Désactiver la sourdine pour que l'audio de la vidéo soit actif
-video.controls = false; // Désactiver les contrôles vidéo pour une meilleure intégration visuelle
-video.style.position = 'fixed';
-video.style.top = '0';
-video.style.width = '50%';  // Ajuste la largeur automatiquement pour maintenir le ratio
-video.style.height = '100%'; // Prend toute la hauteur de l'écran
-video.style.left = '50%';    // Centre horizontalement
-video.style.transform = 'translateX(-50%)';  // Ajuste la position pour centrer horizontalement
-video.style.zIndex = '-1'; // Assure que la vidéo est en arrière-plan
-video.style.objectFit = 'cover'; // Pour que la vidéo remplisse tout l'écran sans distorsion
-video.style.display = 'none'; // Cacher la vidéo au début
-document.body.appendChild(video);
+// Créez un élément audio
+const audio = new Audio('../../images/a.mp3'); // Remplacez 'audio.mp3' par le chemin vers votre fichier audio
 
-
-d3.json("Felix.json").then(treeData => {
+d3.json("Emma.json").then(treeData => {
     const root = d3.hierarchy(treeData);
     const links = root.links();
     const nodes = root.descendants();
@@ -120,11 +103,10 @@ d3.json("Felix.json").then(treeData => {
 
         // Vérifiez si le nom de la node est "Play"
         if (d.data.name === "Play") {
-            if (!video.paused) {
-                video.pause(); // Met en pause la vidéo si elle joue
+            if (!audio.paused) {
+                audio.pause(); // Met en pause la musique si elle joue
             } else {
-                video.play(); // Joue la vidéo avec son audio
-                video.style.display = 'block'; // Affiche la vidéo en plein écran
+                audio.play(); // Joue la musique si elle est en pause
             }
             return; // Ne pas zoomer sur cette node
         }

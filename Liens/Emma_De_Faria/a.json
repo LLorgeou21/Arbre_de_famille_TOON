@@ -1,0 +1,16 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Emma De Faria",
+         "photo": "../../images/Emma_De_Faria/Emma.png",
+        "children": [
+            
+        ]},
+        {"name": "Play",
+              "photo": "../../images/play.png"}
+    ]
+}
+  
+  
