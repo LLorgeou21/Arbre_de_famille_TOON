@@ -1,0 +1,16 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [
+        {"name": "Alex Tran Vhan Nieu",
+         "photo": "../../images/Alex_Tran_Vhan_Nieu/Alex.png",
+        "children": [
+            {"name": "Play",
+              "photo": "../../images/play.png"}
+        ]}
+        
+    ]
+}
+  
+  
