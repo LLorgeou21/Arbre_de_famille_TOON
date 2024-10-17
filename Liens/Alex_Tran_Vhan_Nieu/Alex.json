@@ -20,6 +20,80 @@
                   "photo": "../../images/Matthieu_Ferreira_Rivier/matthieu.jpg",
                   "link":"../Matthieu_Ferraira_RIvier/Matthieu.html"}
                 ]
+            },
+            {"name" : "Fillots",
+            "photo": "../../images/Fillot.png",
+            "children": [
+               {"name": "Evina Grosdidier",
+                "photo": "../../images/Evina_Grosdidier/Evina.png",
+                "link": "../Evina_Grosdidier/Evina.html"},
+                {"name": "Reda Balehouane",
+                "photo": "../../images/Alex_Tran_Vhan_Nieu/Photo_fillots.png",
+                "link": "../Reda_Balehouane/Reda.html"}
+            ]},
+            {"name": "Marraine",
+             "photo": "../../images/Marrain.png",
+             "children": [
+               {"name": "Noheila Gramhi ",
+                "photo": "../../images/Alex_Tran_Vhan_Nieu/Noheila.JPG"}
+             ]},
+             {"name": "BDE 2022-2023",
+              "photo": "../../images/BDE.jpg",
+              "children":[
+                 {"name": "Le message du siècle",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/chié.jpg"},
+                  {"name": "Les enfumés",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Enfumés.JPG"
+                  },
+                  {"name": "Rôle",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Secrétaire.png"
+                  }
+                ]
+            },
+            {"name": "Campagne 2022",
+              "photo": "../../images/listoon.png",
+              "children":[
+                 {"name": "Vrai rôle",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Secretaire_Listoon.jpg"},
+                  {"name": "Toute la liste",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Photo_Listoon.jpeg"
+                  },
+                  {"name": "Rôle",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Secrétaire.png"
+                  }
+                ]
+            },
+            {"name": "Assos",
+            "photo": "../../images/Assos.png",
+            "children":[
+               {"name": "Club Danse",
+                "photo": "../../images/Alex_Tran_Vhan_Nieu/logo_danse.png",
+                "children":[
+                  {"name": "Rôle",
+                   "photo": "../../images/Alex_Tran_Vhan_Nieu/Prez.png"}
+                ]},
+                {"name": "Club Oeno",
+                "photo": "../../images/Alex_Tran_Vhan_Nieu/Logo_Oeno.jpeg",
+                "children":[
+                  {"name": "Rôle",
+                   "photo": "../../images/Alex_Tran_Vhan_Nieu/Secrétaire.png"}
+                ]
+                },
+                {"name": "Club Kouizine",
+                "photo": "../../images/Alex_Tran_Vhan_Nieu/logo_kouizine.jpg",
+                "children":[
+                  {"name": "Rôle",
+                   "photo": "../../images/Alex_Tran_Vhan_Nieu/Trésorier.png"}
+                ]
+                },
+                {"name": "Club Astro",
+                "photo": "../../images/Alex_Tran_Vhan_Nieu/logo_astro.jpg",
+                "children":[
+                  {"name": "Rôle",
+                   "photo": "../../images/Alex_Tran_Vhan_Nieu/Com.png"}
+                ]
+                }
+              ]
             }
         ]}
         

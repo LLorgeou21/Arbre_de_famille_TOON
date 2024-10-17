@@ -26,35 +26,28 @@
                 "photo": "../../images/Assos.png",
                 "children":[
                     {"name": "Club Rap",
-                     "photo": "../../images/Lilian_Lorgeou/Clubrap.png",
+                     "photo": "../../images/Lilian_Lorgeou/logorap.jpg",
                      "children":[
-                        {"name": "Logo",
-                         "photo": "../../images/Lilian_Lorgeou/logorap.jpg"},
                         {"name": "Role",
                          "photo": "../../images/Lilian_Lorgeou/raptxt.png"},
                         {"name": "RC à TPS",
                          "photo": "../../images/Lilian_Lorgeou/rc.png"}
                      ]},
                     {"name": "Assos Poly",
-                     "photo": "../../images/Lilian_Lorgeou/asspoly.png",
+                     "photo": "../../images/Lilian_Lorgeou/logopoly.png",
                      "children":[
-                        {"name":"Logo",
-                         "photo": "../../images/Lilian_Lorgeou/logopoly.png"},
                         {"name":"Role",
                          "photo": "../../images/Lilian_Lorgeou/PREZPOLY.png"}
                      ]},
                     {"name": "Media Physique Strasbourg",
-                     "photo": "../../images/Lilian_Lorgeou/mps.png",
+                     "photo": "../../images/Lilian_Lorgeou/logomps.jpg",
                      "children":[
-                        {"name": "Logo",
-                         "photo": "../../images/Lilian_Lorgeou/logomps.jpg"},
                         {"name": "Role",
-                         "photo" : "../../images/Lilian_Lorgeou/rolemps.png",
-                         "children":[
+                         "photo" : "../../images/Lilian_Lorgeou/rolemps.png"},
                             {"name": "Jt de l'inté 2023",
                              "photo": "../../images/Lilian_Lorgeou/Jtdelinte.jpg",
                              "link": "https://www.youtube.com/watch?v=5KKW0kx9o84"}
-                         ]}
+                         
                      ]}
                 ]
              },
@@ -73,21 +66,19 @@
              ]},
 
             {"name": "Campagne BDE 2022",
-             "photo": "../../images/campagne2022.png",
+             "photo": "../../images/listoon.png",
+             "link": "https://www.instagram.com/listoon_tps/",
              "children":[
-                {"name": "Logo",
-                 "photo": "../../images/listoon.png",
-                 "link": "https://www.instagram.com/listoon_tps/"},
                 {"name": "Inspecteur Gadget",
                  "photo": "../../images/Lilian_Lorgeou/gadget.png"},
                 {"name": "Rôle",
-                 "photo": "../../images/Lilian_Lorgeou/VPint.png",
-                 "children":[
+                 "photo": "../../images/Lilian_Lorgeou/VPint.png"},
+
                     {"name": "Vidéo de liste",
                      "photo": "../../images/Lilian_Lorgeou/videodeliste.png",
                      "link": "https://www.facebook.com/100089189086561/videos/2315132375540950/?idorvanity=7626292664111656"}
-                 ]}
-             ]},
+        ]}
+             ,
              {"name": "Play",
               "photo": "../../images/play.png"},
              {"name": "Faux Bizuth",
