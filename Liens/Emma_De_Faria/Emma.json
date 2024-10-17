@@ -1,0 +1,116 @@
+{
+    "name": "Exit",
+    "photo": "../../images/exit.png",
+    "link": "../../index.html",
+    "children": [      
+              {
+                "name": "Emma De Faria",
+                "photo": "../../images/Emma_De_Faria/Emma.png",
+                "children": [
+                    {"name": "Play",
+              "photo": "../../images/play.png"},
+                  {
+                    "name": "Campagne BDE 2022",
+                    "photo": "../../images/campagne2022.png",
+                    "children": [
+                      {
+                        "name": "VP Fouaille",
+                        "photo": "../../images/Emma_De_Faria/fouaille.png"
+                      },
+                      {
+                        "name": "Listoon",
+                        "photo": "../../images/listoon.png"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fillote",
+                    "photo": "../../images/Fillote.png",
+                    "children": [
+                      {
+                        "name": "Claire Magné",
+                        "photo": "../../images/Claire_Magné/Claire.png"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Marraine",
+                    "photo": "../../images/Marrain.png",
+                    "children": [
+                      {
+                        "name": "Arielle",
+                        "photo": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Asso",
+                    "photo": "../../images/Assos.png",
+                    "children": [
+                      {
+                        "name": "BDE 2023",
+                        "photo": "../../images/BDE.jpg",
+                        "children": [
+                          {
+                            "name": "VP Fouaille",
+                            "photo": ""
+                          }
+                        ]
+                      },
+                      {
+                        "name": "MPS 2024-2025",
+                        "photo": "",
+                        "children": [
+                          {
+                            "name": "VP Polyvalente",
+                            "photo": ""
+                          },
+                          {
+                            "name": "Vraiment Polyvalente",
+                            "photo": ""
+                          },
+                          {
+                            "name": "Fou du Fouaille",
+                            "photo": ""
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sports",
+                    "photo": "",
+                    "children": [
+                      {
+                        "name": "Rugby",
+                        "photo": ""
+                      },
+                      {
+                        "name": "Running",
+                        "photo": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Events",
+                    "photo": "",
+                    "children": [
+                      {
+                        "name": "Novembeer",
+                        "photo": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "(à suivre)",
+                    "photo": ""
+                  }
+                ]
+              }
+              
+        
+        
+    ]
+}
+  
+  
