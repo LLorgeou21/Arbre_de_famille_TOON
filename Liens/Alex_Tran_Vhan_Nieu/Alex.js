@@ -7,7 +7,7 @@ const squareSize = 60; // Taille des carrés
 
 // Créez un élément vidéo en arrière-plan
 const video = document.createElement('video');
-video.src = '../../images/Lilian_Lorgeou/Whiplash cat meme.mp4'; // Remplacez par le chemin de votre vidéo
+video.src = '../../images/Alex_Tran_Vhan_Nieu/Jingle_bell.mp4'; // Remplacez par le chemin de votre vidéo
 video.autoplay = false;
 video.loop = true;
 video.muted = false; // Désactiver la sourdine pour que l'audio de la vidéo soit actif
