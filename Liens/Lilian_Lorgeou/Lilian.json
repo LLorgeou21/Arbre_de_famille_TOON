@@ -95,7 +95,20 @@
               "children":[
                 {"photo": "../../images/Lilian_Lorgeou/fo1.png"},
                 {"photo": "../../images/Lilian_Lorgeou/fo2.png"}
-              ]}
+              ]},
+              {"name": "Colloc",
+              "photo": "../../images/studio.png",
+              "children":[
+                 {"name": "Alex le meilleur",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/le_studio.jpg"},
+                  {"name": "Alex Tran Vhan Nieu",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Alex.png",
+                  "link": "../Alex_Tran_Vhan_Nieu/Alex.html"},
+                  {"name": "Matthieu Ferraira Rivier",
+                  "photo": "../../images/Matthieu_Ferreira_Rivier/matthieu.jpg",
+                  "link":"../Matthieu_Ferraira_RIvier/Matthieu.html"}
+                ]
+            }
         ]}
     ]
 }

@@ -23,12 +23,19 @@
                 {"name": "Camille Beziat",
                  "photo": "../../images/Matthieu_Ferreira_Rivier/IMG_5430.JPG"}
               ]},
-            {"name": "Colloc",
-             "photo": "../../images/studio.png",
-             "children":[
-                {"name": "Alex le meilleur",
-                 "photo": ""}
-             ]}
+              {"name": "Colloc",
+              "photo": "../../images/studio.png",
+              "children":[
+                 {"name": "Alex le meilleur",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/le_studio.jpg"},
+                  {"name": "Alex Tran Vhan Nieu",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/Alex.png",
+                  "link": "../Alex_Tran_Vhan_Nieu/Alex.html"},
+                  {"name": "Lilian Lorgeou",
+                  "photo": "../../images/Lilian_Lorgeou/Lilian.png",
+                  "link":"../Lilian_Lorgeou/Lilian.html"}
+                ]
+            }
         ]}
         
     ]

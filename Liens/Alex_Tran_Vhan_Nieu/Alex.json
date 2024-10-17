@@ -7,7 +7,20 @@
          "photo": "../../images/Alex_Tran_Vhan_Nieu/Alex.png",
         "children": [
             {"name": "Play",
-              "photo": "../../images/play.png"}
+              "photo": "../../images/play.png"},
+            {"name": "Colloc",
+              "photo": "../../images/studio.png",
+              "children":[
+                 {"name": "Alex le meilleur",
+                  "photo": "../../images/Alex_Tran_Vhan_Nieu/le_studio.jpg"},
+                  {"name": "Lilian Lorgeou",
+                  "photo": "../../images/Lilian_Lorgeou/Lilian.png",
+                  "link": "../Lilian_Lorgeou/Lilian.html"},
+                  {"name": "Matthieu Ferraira Rivier",
+                  "photo": "../../images/Matthieu_Ferreira_Rivier/matthieu.jpg",
+                  "link":"../Matthieu_Ferraira_RIvier/Matthieu.html"}
+                ]
+            }
         ]}
         
     ]
